@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 40px 30px;
+    padding: 0;
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: ;
+    justify-content: space-between;
+    color: white;
+}
+
+.nav .nav-hamburger-icon {
+    margin: 0;
+    padding: 0;
+}
+
+.nav .nav-logotype {
+    margin: 0;
+    padding: 0;
+}
+
+ion-icon {
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+}
+
+ion-icon:hover {
+    color: tomato;
+}
+
+.nav .nav-hamburger-icon a .nav-hamburger-icon-line {
+    margin: 0 0 5px 0;
+    padding: 0px;
+    background-color: white;
+    height: 2px;
+    width: 20px;
+}
+
+.grid-container {
+    margin: 110px 0 80px 0;
+    padding: 0;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 20px 10px; 
+    grid-template-areas: 
+      ". ."
+      ". ."; 
+  }
+
+.card-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.card-container img {
+    width: 160px;
+    height: 165px;
+    object-fit: cover;
+  }
+
+.card-container .img-container {
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+.card-container .product-name {
+    text-align: center;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+.card-container .product-price {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-grid-container {
+    margin: 110px 0 0 0;
+    padding: 0;
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 30px 0px;
+}
+
+.footer-grid-container .footer-links {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-grid-container .footer-links ul {
+    list-style-type: none;
+}
+
+.footer-grid-container .footer-links ul li {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.footer-grid-container .footer-links ul li a {
+    color: white;
+    font-size: 14px; 
+    text-decoration: none;
+}
+
+.footer-grid-container .footer-links ul li a:hover  {
+    color: tomato;
+    transition: 0.2ms;
+}
+
+.footer .footer-text {
+    color: white;
+    font-size: 14px; 
+    text-decoration: none;
+}
+
+.footer .footer-text span a {
+    color: white;
+    font-size: 14px; 
+    text-decoration: none;
+}
+
+.footer .footer-text span a:hover {
+    color: tomato;
+    text-decoration: underline;
+    transition: 0.2ms;
+}
